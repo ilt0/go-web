@@ -15,7 +15,7 @@ func main() {
 	r.GET("/deneme", deneme)
 
 
-	http.ListenAndServe(":80", r)
+	http.ListenAndServe(":3000", r)
 }
 
 func home(w http.ResponseWriter, r *http.Request, params httprouter.Params)  {
